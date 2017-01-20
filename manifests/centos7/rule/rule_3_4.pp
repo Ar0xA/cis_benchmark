@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_4(
+class cis_benchmark::centos7::rule::rule_3_4(
 $iprange = $cis_rhel7::params::iprange) {
 
 # includes Rules:

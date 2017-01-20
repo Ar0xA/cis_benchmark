@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_4_1(
+class cis_benchmark::centos7::rule::rule_4_1(
 $rules = $::cis_rhel7::params::audit_rules
 ) {
 # includes Rules:

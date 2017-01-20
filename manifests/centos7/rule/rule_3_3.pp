@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_3 {
+class cis_benchmark::centos7::rule::rule_3_3 {
 
 # includes Rules:
 #3.3.1 Ensure IPv6 router advertisements are not accepted 

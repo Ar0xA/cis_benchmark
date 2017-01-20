@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_5_1 {
+class cis_benchmark::centos7::rule::rule_5_1 {
 
 # includes Rules:
 #5.1.1 Ensure cron daemon is enabled 

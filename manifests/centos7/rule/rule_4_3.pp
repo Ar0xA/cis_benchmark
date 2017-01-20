@@ -1,8 +1,8 @@
-class cis_rhel7::rule::rule_4_3 (
+class cis_benchmark::centos7::rule::rule_4_3 (
 
-  $logs = $::cis_rhel7::params::logs
+  $logs = $::cis_benchmark::centos7::params::logs
 
-) inherits cis_rhel7::params {
+) inherits cis_benchmark::centos7::params {
 
 # includes Rules:
 # 4.3 - Configure logrotate (Not Scored)

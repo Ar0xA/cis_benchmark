@@ -1,5 +1,5 @@
-class cis_rhel7::rule::rule_4_2 (
-) inherits cis_rhel7::params {
+class cis_benchmark::centos7::rule::rule_4_2 (
+) inherits cis_benchmark::centos7::params {
 
 # includes Rules:
 #NOT USED 4.2.1.1 Ensure rsyslog Service is enabled

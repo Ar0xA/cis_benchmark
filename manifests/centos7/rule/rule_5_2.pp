@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_5_2{
+class cis_benchmark::centos7::rule::rule_5_2{
 # includes Rules:
 #NOT USED 5.2.1 Ensure permissions on /etc/ssh/sshd_config are configured
 #NOT USED 5.2.2 Ensure SSH Protocol is set to 2

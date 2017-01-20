@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_5_6 {
+class cis_benchmark::centos7::rule::rule_5_6 {
 
 #includes Rules:
 # 5.6 Ensure access to the su command is restricted 

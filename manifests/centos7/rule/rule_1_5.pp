@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_5 {
+class cis_benchmark::centos7::rule::rule_1_5 {
 
 # includes Rules:
 #1.5.1 Ensure core dumps are restricted

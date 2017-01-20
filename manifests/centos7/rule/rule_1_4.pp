@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_4 {
+class cis_benchmark::centos7::rule::rule_1_4 {
 
 # includes Rules:
 # 1.4.1 - Ensure permissions on bootloader config are configured  (Scored)

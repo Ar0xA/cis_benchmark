@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_3 {
+class cis_benchmark::centos7::rule::rule_1_3 {
 
 #includes Rules:
 #NOT USED 1.3.1 Install [AIDE] (Scored)

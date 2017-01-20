@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_2(
+class cis_benchmark::centos7::rule::rule_3_2(
 $enabled = $cis_rhel7::params::rule_3_2,
 ) {
 if $enabled {

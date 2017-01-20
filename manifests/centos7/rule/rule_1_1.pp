@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_1 {
+class cis_benchmark::centos7::rule::rule_1_1 {
 
 # includes Rules:
 #1.1.1.1 Ensure mounting of cramfs filesystems is disabled (Scored)

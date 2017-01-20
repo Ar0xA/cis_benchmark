@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_5_4 {
+class cis_benchmark::centos7::rule::rule_5_4 {
 
 #includes Rules:
 #5.4.1.1 Ensure password expiration is 90 days or less

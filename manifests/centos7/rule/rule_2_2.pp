@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_2_2 {
+class cis_benchmark::centos7::rule::rule_2_2 {
 
 # includes Rules:
 # NOT USED 2.2.1.1 Ensure time synchronization is in use

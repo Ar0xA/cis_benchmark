@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_2_3 {
+class cis_benchmark::centos7::rule::rule_2_3 {
 
 # includes Rules:
 # NOT USED 2.3.1 Ensure NIS Client is not installed  

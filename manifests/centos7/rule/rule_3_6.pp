@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_6 {
+class cis_benchmark::centos7::rule::rule_3_6 {
 
 # includes Rules:
 #NOT USED 3.6.1 Ensure iptables is installed

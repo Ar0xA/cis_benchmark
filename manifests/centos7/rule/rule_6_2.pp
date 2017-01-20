@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_6_2{
+class cis_benchmark::centos7::rule::rule_6_2{
 # includes Rules:
 #NOT USED6.2.1 Ensure password fields are not empty
 #NOT USED 6.2.2 Ensure no legacy "+" entries exist in /etc/passwd

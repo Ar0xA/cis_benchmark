@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_6 {
+class cis_benchmark::centos7::rule::rule_1_6 {
 # includes Rules:
 #1.6.1 Configure SELinux
 #1.6.1.1 Ensure SELinux is not disabled in bootloader configuration 

@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_16 {
+class cis_benchmark::centos7::rule::rule_3_16 {
 
 # includes Rules:
 # 3.16 - Configure Mail Transfer Agent for Local-Only Mode (Scored)

@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_2_1 {
+class cis_benchmark::centos7::rule::rule_2_1 {
 
 # includes Rules:
 #NOT USED 2.1.1 Ensure chargen services are not enabled 

@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_6_1  {
+class cis_benchmark::centos7::rule::rule_6_1  {
 
 # includes Rules:
 #NOT USED 6.1.1 Audit system file permissions 

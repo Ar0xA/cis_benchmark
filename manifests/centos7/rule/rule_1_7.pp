@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_7 {
+class cis_benchmark::centos7::rule::rule_1_7 {
 
 # includes Rules:
 #1.7.1.1 Ensure message of the day is configured properly

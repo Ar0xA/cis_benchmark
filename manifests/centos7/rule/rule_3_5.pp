@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_3_5 {
+class cis_benchmark::centos7::rule::rule_3_5 {
 
 # includes Rules:
 #3.5.1 Ensure DCCP is disabled

@@ -1,4 +1,4 @@
-class cis_rhel7::rule::rule_1_2 {
+class cis_benchmark::centos7::rule::rule_1_2 {
 
 #includes Rules:
 #RHEL
