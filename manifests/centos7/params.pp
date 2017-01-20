@@ -1,4 +1,4 @@
-class cis_benchmark::cenos7_params (
+class cis_benchmark::cenos7::params (
 #enable/disable specific rules
 $rule_3_1 = true,
 $rule_3_2 = true,
