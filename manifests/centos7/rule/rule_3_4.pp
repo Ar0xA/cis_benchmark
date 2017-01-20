@@ -1,5 +1,5 @@
 class cis_benchmark::centos7::rule::rule_3_4(
-$iprange = $cis_rhel7::params::iprange) {
+$iprange = $cis_benchmark::centos7::params::iprange) {
 
 # includes Rules:
 # 3.4.1 - Install TCP Wrappers (Not Scored)

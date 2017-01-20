@@ -1,5 +1,5 @@
 class cis_benchmark::centos7::rule::rule_4_1(
-$rules = $::cis_rhel7::params::audit_rules
+$rules = $::cis_benchmark::centos7::params::audit_rules
 ) {
 # includes Rules:
 #4.1.1.1 Ensure audit log storage size is configured 
