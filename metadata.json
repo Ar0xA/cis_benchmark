@@ -1,6 +1,6 @@
  {
       "name": "cis_benchmark",
-      "version": "1.0.0",
+      "version": "0.0.1",
       "author": "Ar0xA",
       "license": "Apache-2.0",
       "summary": "CIS Benchmark Compliance for puppet",
@@ -29,7 +29,6 @@
        ],
       "dependencies": [
         { "name": "puppetlabs/stdlib", "version_requirement": ">= 2.2.0 < 5.0.0" },
-        { "name": "herculesteam-augeasproviders_pam", "version_requirement": ">= 2.1.0 < 5.0.0" }
       ],
       "data_provider": "hiera"
-    }
+ }
