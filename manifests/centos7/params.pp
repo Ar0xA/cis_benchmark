@@ -1,4 +1,4 @@
-class cis_benchmark::cenos7::params (
+class cis_benchmark::centos7::params (
 #enable/disable specific rules
 $rule_3_1 = true,
 $rule_3_2 = true,
@@ -18,7 +18,7 @@ Augeas    { noop => false }
 Pam       { noop => false }
 
 if ($iprange == undef) {
-    fail ("\n\n!! The IP network range needs to be defined for /etc/hosts.allow. Variable is named cis_rhel7::params::iprange !! \n\n")
+    fail ("\n\n!! The IP network range needs to be defined for /etc/hosts.allow. Variable is named cis_benchmark::centos7::params::iprange !! \n\n")
 }
 
 # Rule 4.1.4

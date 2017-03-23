@@ -2,7 +2,7 @@
 # Reference for this Module:
 # https://benchmarks.cisecurity.org/tools2/linux/CIS_Red_Hat_Enterprise_Linux_7_Benchmark_v2.1.0.pdf
 
-class cis_centos7 inherits ::cis_benchmark::centos7::params {
+class cis_benchmark::centos7 inherits ::cis_benchmark::centos7::params {
   
   ## centos7::rules
   include ::cis_benchmark::centos7::rule::rule_1_1  

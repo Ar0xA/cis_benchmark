@@ -18,7 +18,7 @@ Augeas    { noop => false }
 Pam       { noop => false }
 
 if ($iprange == undef) {
-    fail ("\n\n!! The IP network range needs to be defined for /etc/hosts.allow. Variable is named cis_rhel7::params::iprange !! \n\n")
+    fail ("\n\n!! The IP network range needs to be defined for /etc/hosts.allow. Variable is named cis_benchmark::rhel7::params::iprange !! \n\n")
 }
 
 # Rule 4.1.4
