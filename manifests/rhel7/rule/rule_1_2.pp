@@ -8,12 +8,6 @@ class cis_rhel7::rule::rule_1_2 {
 # 1.2.4 Ensure Red Hat Network or Subscription Manager connection is configured (Not Scored)
 # 1.2.5 Disable the rhnsd Daemon (Not Scored)
 
-#CentOS
-#NOT CHECKED 1.2.1 Ensure package manager repositories are configured 
-#NOT CHECKED 1.2.2 Ensure GPG keys are configured
-#1.2.3 Ensure gpgcheck is globally activated 
-
-
 ## APPLIES TO REDHAT only
 if $::operatingsystem == 'RedHat'
 {
@@ -58,24 +52,9 @@ if $::operatingsystem == 'RedHat'
     enable  => false,
   }
 
-} elsif $::operatingsystem == 'CentOS' 
-{ 
-#1.2.1
-  notify {"NOT CHECKED 1.2.1 Ensure package manager repositories are configured ": loglevel => "debug" }
-  
-#1.2.2
-  notify {"NOT CHECKED 1.2.2 Ensure GPG keys are configured": loglevel => "debug" }
-  
-#1.2.3
-  file_line { "(1.2.3) /etc/yum.conf contains gpgcheck=1":
-   ensure  => present,
-   path    => '/etc/yum.conf',
-   line    => 'gpgcheck=1',
-  }
-}
-else
+} else
 {
-  notify { "This operating system is not RedHat or CentOS, skipping rules..": }
+  notify { "This operating system is not RedHat, skipping rules..": }
 }
 
 } #EOF
